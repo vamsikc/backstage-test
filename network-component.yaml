@@ -1,12 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-lookup
-  description: Artist Lookup
-  tags:
-    - java
-    - data
+  name: petstore
+  description: Petstore
 spec:
   type: service
   lifecycle: experimental
-  owner: artists@example.com
+  owner: pets@example.com
+  implementsApis:
+    - petstore
+    - streetlights
+    - hello-world
