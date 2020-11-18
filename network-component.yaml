@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: network
+  description: Network Service
+  tags:
+    - elixir
+spec:
+  type: service
+  lifecycle: production
+  owner: card-infra
