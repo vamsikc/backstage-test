@@ -1,12 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: playback-order
-  description: Playback Order
+  name: network
+  description: Network
   tags:
-    - java
-    - playback
+    - elixir
 spec:
   type: service
   lifecycle: production
-  owner: guest
+  owner: cards-infra
