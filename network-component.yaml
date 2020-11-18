@@ -1,11 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: network
-  description: Network Service
+  name: artist-lookup
+  description: Artist Lookup
   tags:
-    - elixir
+    - java
+    - data
 spec:
   type: service
-  lifecycle: production
-  owner: card-infra
+  lifecycle: experimental
+  owner: artists@example.com
